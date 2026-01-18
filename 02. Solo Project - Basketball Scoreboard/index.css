@@ -1,0 +1,58 @@
+body {
+    margin: 0; 
+    background-color: rgb(0, 0, 75);
+}
+@font-face {
+    src: url("digital-7.ttf"); /* url of the font */
+    font-family: myFont; /* set name */
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.player{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.score{
+    background-color: black;
+    color: rgb(172, 0, 0);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-family: myFont,Arial, Helvetica, sans-serif;
+}
+.points-btn{
+    width: 50px;
+    height: 50px;
+    margin: 30px 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 75);
+    border: 2px solid #a7a7ff;
+    border-radius: 10%;
+    color: #a7a7ff;
+    font-family: myFont;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.btn-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-game-btn{
+    text-align: center;
+    background-color: rgb(0, 0, 75);
+    border: 2px solid #a7a7ff;
+    border-radius: 5%;
+    color: #a7a7ff;
+    font-family: myFont;
+    font-size: 50px;
+    font-weight: bold; 
+}
